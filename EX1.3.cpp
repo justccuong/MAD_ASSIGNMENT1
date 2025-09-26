@@ -1,3 +1,8 @@
+//flow : tìm các số nguyên tố <= 5000 rồi nhét vào mảng động(vector) a, sau đó chạy 2 for (i != j) rồi nhân a[i] với a[j] để 
+//tạo ra mảng động b, Chú ý: nhận thấy nếu như vậy thì mảng sẽ không tăng dần, do đó ta cần sắp xếp tăng dần để cho đúng với
+//tập hợp C như đề bài rồi mới tiếp tục tính toán. vì n thuộc tập N, sau đó in ra b thứ 99, vì b bắt đầu từ 0 nên phần tử
+//thứ 99 là 100
+
 // ketqua: 334
 
 #include <bits/stdc++.h>
