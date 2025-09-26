@@ -3,9 +3,9 @@
 
 //phần tử lớn nhất của A giao B là 10000, ta sẽ chạy lùi từ đó.
 //nếu số đó mà thỏa mãn chia hết i*(i+2) mà chia hết cho 15 thì tăng biến đếm
-//cứ lùi i và tăng biến đếm đến khi nó = 100 thì in ra màn hình.
+//cứ lùi i và tăng biến đếm đến khi nó = 100 thì in ra màn hình. in ra i+1 vì i ở lần cuối đã -1
 
-//ketqua: 9627
+//ketqua: 9628
 
 #include <iostream>
 
@@ -24,7 +24,7 @@ int main()
         i -= 1;
         
     }
-    cout << i << endl;
+    cout << i+1 << endl;
     
     return 0;
 }
