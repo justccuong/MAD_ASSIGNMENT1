@@ -2,7 +2,7 @@
 // 1 số nào đó mà (gọi số đó là i) i*(i+2) <= 10000 và chia hết cho 15, mỗi khi điều đó xảy ra thì -1 phần tử của
 // tập B.
 
-// ketqua: 9975 
+// ketqua: 7334 
 
 #include <iostream>
 
@@ -10,17 +10,13 @@ using namespace std;
 
 int res, i;
 
-int main()
-{
-    res = 10001;
-    i = 0;
-    while (i*(i+2) <=10000) {
-        if (i*(i+2) % 15 == 0) {
-            res -= 1;
+int main() {
+    int res = 10001; // số phần tử của B
+    for (int i = 0; i <= 10000; i++) {
+        if ((i * (i + 2)) % 15 == 0) {
+            res--;
         }
-        i += 1;
     }
     cout << res;
-    
     return 0;
 }
